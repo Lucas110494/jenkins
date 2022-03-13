@@ -43,4 +43,4 @@ echo "########## CREATE JENKINS HOME DIR ###########"
 echo "##############################################"
 
 sudo mkdir -p /var/jenkins_home
-sudo chown a+wr /var/jenkins_home
+sudo chmod a+rwx /var/jenkins_home
