@@ -37,3 +37,10 @@ echo "##############################################"
 
 sudo apt install python3-pip
 sudo pip install docker-compose
+
+echo "##############################################"
+echo "########## CREATE JENKINS HOME DIR ###########"
+echo "##############################################"
+
+mkdir -p /var/jenkins_home
+sudo chown a+wr /var/jenkins_home
