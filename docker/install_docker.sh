@@ -35,5 +35,5 @@ echo "##############################################"
 echo "########### INSTALL DOCKER COMPOSE ###########"
 echo "##############################################"
 
-sudo apt-get -y install python-pip
+sudo apt install python3-pip
 sudo pip install docker-compose
