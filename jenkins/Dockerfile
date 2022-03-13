@@ -9,4 +9,7 @@ rm -rf /tmp/download && \
 groupadd -g 989 docker && \
 usermod -aG staff,docker jenkins
 
+RUN mkdir /var/kenkins_home
+RUN sudo chown a+rw /var/jenkins_home
+
 USER jenkins
